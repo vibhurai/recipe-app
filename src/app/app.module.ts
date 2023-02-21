@@ -19,12 +19,10 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
     ShoppingEditComponent,
     RecipeDetailComponent,
     RecipeListComponent,
-    RecipeItemComponent
+    RecipeItemComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
